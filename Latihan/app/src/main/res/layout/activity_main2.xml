@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <!-- EDIT TEXT with the hint of "Enter Phone No." -->
+    <EditText
+        android:id="@+id/etNO"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter phone no."
+        android:textColor="@color/black"
+        android:inputType="phone"/>
+
+    <1-- Button for the option Camera -->
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/holo_orange_light"
+        android:layout_height="55dp"
+        android:text="Camera"/>
+
+    <!-- Button for the option Contacts -->
+    <Button
+        android:id="@+id/btnContacts"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/holo_orange_light"
+        android:layout_height="55dp"
+        android:text="Contacts"/>
+
+    <!-- Button for the option Browser -->
+    <Button
+        android:id="@+id/btnBrowser"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/holo_orange_light"
+        android:layout_height="55dp"
+        android:text="Browser"/>
+
+    <!-- Button for the option Gallery -->
+    <Button
+        android:id="@+id/btnGallery"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/holo_orange_light"
+        android:layout_height="55dp"
+        android:text="Gallery"/>
+
+    <!-- Button for the option DialPad -->
+    <Button
+        android:id="@+id/btnDialPad"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/holo_orange_light"
+        android:layout_height="55dp"
+        android:text="DialPad"/>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="https://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android1:layout_width="match_parent"
+    android1:layout_height="match_parent"
+    android1:orientation="vertical"
+    tools:context=".ImplicActivity">
+    
+    <Button
+        android1:id="@+id/btnShare"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_margin="20dp"
+        android1:text="Share Text" />
+
+    <view
+        android1:layout_width="match_parent"
+        android1:layout_height="1dp"
+        android1:background="@color/black"/>
+
+    <TextView
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_gravity="center"
+        android1:layout_margin="15dp"
+        android1:fontFamily="sans-serif-black"
+        android1:text="Alarm"
+        android1:textSize="25dp" />
+
+
+    <EditText
+        android1:id="@+id/Jam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android1:layout_marginStart="35dp"
+        android1:layout_marginEnd="35dp"
+        android1:hint="Jam"
+        android1:inputType="number"/>
+
+    <EditText
+        android1:id="@+id/Menit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android1:layout_marginStart="35dp"
+        android1:layout_marginTop="10dp"
+        android1:layout_marginEnd="35dp"
+        android1:hint="Menit"
+        android1:inputType="number"/>
+
+    <EditText
+        android1:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android1:layout_marginStart="35dp"
+        android1:layout_marginTop="18dp"
+        android1:layout_marginEnd="35dp"
+        android1:hint="isi Deskripsi"
+        android1:inputType="number"
+        android1:padding="15dp"/>
+    <Button
+        android1:id="@+id/btnAlarm"
+        android1:layout_width="120dp"
+        android1:layout_height="wrap_content"
+        android1:layout_gravity="center"
+        android1:layout_margin="20dp"
+        android1:text="Set Alarm" />
+    
+    <View
+        android1:layout_width="match_parent"
+        android1:layout_height="1dp"
+        android1:background="@color/black" />
+
+    <ImageView
+        android1:id="@+id/hasilfoto"
+        android1:layout_width="350dp"
+        android1:layout_height="250dp"
+        android1:layout_gravity="center"
+        android1:layout_marginTop="25dp"
+        android1:background="@drawable/rounded"
+        android1:padding="18dp" />
+
+    <Button
+        android1:id="@+id/btnFoto"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_gravity="center"
+        android1:layout_margin="20dp"
+        android1:text="Ambil Gambar" />
+
+</LinearLayout>
+
+
+
+
+
+
+
+        
+

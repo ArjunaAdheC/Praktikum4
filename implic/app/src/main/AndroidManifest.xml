@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="https://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    package="com.example.praktikum1">
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.SET_ALARM"/>
+    
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@nipmap/ic_launcher"
+        android:label="PraktikumP1"
+        android:raundIcon="@nipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:thene="@style/Thene.PraktikumMP1">
+        <activity android:name=".vi.ImplicitIntenActivity"></activity>
+        <activity android1:name=".ImplicitActivity">
+            <intent-filter>
+                <action android1:name="android.intent.action.MAIN"/>
